@@ -1,0 +1,57 @@
+.dark {
+  background-color: #10b0d0;
+}
+
+.light {
+  background-color: #39dafa;
+}
+
+.dark,
+.light {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.counter-data {
+  max-width: 50px;
+  min-width: 50px;
+  overflow: auto;
+  margin: 10px;
+}
+
+.counter-data::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+/* Track */
+.counter-data::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle */
+.counter-data::-webkit-scrollbar-thumb {
+  background: rgb(243, 241, 242);
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+.counter-data::-webkit-scrollbar-thumb:hover {
+  background: #767676;
+}
+
+.btn-danger {
+  margin-left: 10px;
+}
+
+.btn-danger:hover {
+  color: #bb0303 !important;
+  background-color: white !important;
+}

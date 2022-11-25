@@ -1,7 +1,12 @@
-import "./app.css";
+import "./App.css";
+import { CounterContainer } from "./components";
 
 function App() {
-  return <div className="app"></div>;
+  return (
+    <div className="app">
+      <CounterContainer />
+    </div>
+  );
 }
 
 export default App;

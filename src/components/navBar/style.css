@@ -1,0 +1,26 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px !important;
+  margin-bottom: 30px;
+}
+
+.total {
+  font-weight: 700;
+  border: 3px solid #0dcaf0;
+  border-radius: 5px;
+  background-color: #0dcaf0c9;
+  color: rgb(255, 255, 255);
+  margin-right: 60px;
+}
+
+.btn-info {
+  margin-right: 5px !important;
+  color: white !important;
+}
+
+.btn-info:hover {
+  background-color: white !important;
+  color: #0dcaf0 !important;
+}
